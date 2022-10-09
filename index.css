@@ -12,7 +12,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 8fr 1fr;
+    grid-template-columns: 8fr 1fr 1fr;
 }
 
 #top {
@@ -39,7 +39,7 @@ body {
     display: grid;
     background-color: #181926;
     grid-row: span 2;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #topTimer {
@@ -66,6 +66,66 @@ body {
 }
 
 #bottomTimerText {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #cad3f5;
+}
+
+#stop {
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: #cad3f5;
+    color: #181926;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+
+.extras {
+    display: grid;
+    background-color: #181926;
+    grid-row: span 2;
+    grid-template-rows: 1fr 1fr;
+}
+
+#switch {
+    border-top: 1px solid #cad3f5;
+    border-left: 1px solid #cad3f5;
+    border-right: 1px solid #cad3f5;
+    border-bottom: 1px solid #cad3f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    text-align: center;
+    cursor: pointer;
+}
+
+#pause {
+    border-left: 1px solid #cad3f5;
+    border-right: 1px solid #cad3f5;
+    border-bottom: 1px solid #cad3f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    text-align: center;
+    cursor: pointer;
+}
+
+#switchText {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #cad3f5;
+}
+
+#pauseText {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 2rem;
