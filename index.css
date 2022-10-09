@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 8fr 1fr;
+}
+
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #24273a;
+    cursor: pointer;
+    background-color: #5b6078;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #5b6078;
+    cursor: pointer;
+    background-color: #24273a;
+}
+
+.timer {
+    display: grid;
+    background-color: #181926;
+    grid-row: span 2;
+    grid-template-rows: 1fr 1fr;
+}
+
+#topTimer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+
+#bottomTimer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    text-align: center;
+}
+
+#topTimerText {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #cad3f5;
+}
+
+#bottomTimerText {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #cad3f5;
+}
